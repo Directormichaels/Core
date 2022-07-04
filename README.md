@@ -1,1 +1,2 @@
 # Core
+Responsive Pages

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="content">
+        <div class="left_content">
+          <h2>
+            Learn to code by <br />
+            watching others
+          </h2>
+          <p>
+            See how experienced developers solve problems in real time <br />
+            Watching scripted tutorials is great, but understanding how <br />
+            developers think is invaluable
+          </p>
+        </div>
+        <div class="right_content">
+          <div class="trial">
+            <button>
+              <a href="#">Try it for free 7 days then $20/mo. thereafter</a>
+            </button>
+          </div>
+          <div class="form_info">
+            <form action="#" method="post" id="nameform">
+              <input
+                id="Fname"
+                type="text"
+                name="name"
+                placeholder="First Name"
+                required=""
+                oninvalid="this.setCustomValidity('First Name cannot be empty')"
+                oninput="this.setCustomValidity('')"
+              /><br />
+              <input
+                id="Lname"
+                type="text"
+                name="name"
+                placeholder="Last Name"
+                required=""
+                oninvalid="this.setCustomValidity('Last Name cannot be empty')"
+                oninput="this.setCustomValidity('')"
+              /><br />
+              <input
+                id="email"
+                type="text"
+                name="name"
+                placeholder="Email Address"
+                required=""
+                oninvalid="this.setCustomValidity('Looks like this is not an email')"
+                oninput="this.setCustomValidity('')"
+              /><br />
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Password"
+                required=""
+                oninvalid="this.setCustomValidity('Password cannot be empty')"
+                oninput="this.setCustomValidity('')"
+              /><br />
+            </form>
+            <button type="submit" form="nameform" value="submit">
+              CLAIM YOUR FREE TRIAL
+            </button>
+            <p class="agreement">
+              By clicking the button, you are agreeing to our
+              <a href="#">Terms and Services</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
